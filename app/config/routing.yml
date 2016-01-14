@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+MainBundle:
+    resource: "@TonyMainBundle/Resources/config/routing.yml"
+    prefix: /tonymain
